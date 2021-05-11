@@ -1,0 +1,4 @@
+instal pip
+instal virualenv
+virtualenv venve or virtual -p /usr/bin/python2.7 venv
+source venv/bin/activate
