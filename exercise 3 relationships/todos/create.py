@@ -2,7 +2,7 @@ from app import db, todos
 
 db.create_all() 
 
-Task_2 = todos(Task = 'make another table', Completed = True)
+Task_3 = todos(Task = 'new todo', Completed = True)
 #completed_task1 = todos(name= "True")
-db.session.add(Task_2)
+db.session.add(Task_3)
 db.session.commit()
